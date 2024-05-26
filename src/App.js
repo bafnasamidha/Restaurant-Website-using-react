@@ -1,24 +1,40 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Front from './components/Front';
+import About from './components/About';
+import Contact from './components/Contact';
+// import Reservation from './components/Reservation'
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link
+// } from "react-router-dom";
+// import {Routes,Route} from "react-router-dom";
 
-function App() {
+//here we not use any react that's why we can't import react
+ function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+  //  <Navbar title="Navbar2"/>
+  <>
+  {/* <Router> */}
+  <Navbar/> 
+  {/* <Routes>
+    <Route path="/">
+       <Reservation/>
+    </Route>
+  </Routes> */}
+  <Front/>
+  <About/>
+  <Contact/>
+  {/* <div> */}
+
+  {/* </div> */}
+  {/* </Router> */}
+   {/* this switch component is taken from react router.com Quick start  */}
+  </>
   );
 }
 
