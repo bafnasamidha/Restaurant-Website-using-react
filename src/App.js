@@ -52,11 +52,11 @@ function App() {
       </Router> */}
       {/* this switch component is taken from react router.com Quick start  */}
       {/* <RouterProvider router={router} /> */}
-      <Navbar/>
-      <Front/>
-      <About/>
-      <Block/> 
-      <Contact/>
+      <Navbar />
+      <Front />
+      <About />
+      <Block />
+      <Contact />
     </>
   );
 }

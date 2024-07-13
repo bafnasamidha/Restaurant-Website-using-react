@@ -26,13 +26,13 @@ export default function Navbar(props) {
         </a>
         <a className="navitem" href="#section4">
           CONTACT US
-        </a> 
+        </a>
 
         <div className="buttons">
           <a className="button" href="">
             Reservation
           </a>
-          <a  className="button" href="">
+          <a className="button" href="">
             Order Now
           </a>
         </div>

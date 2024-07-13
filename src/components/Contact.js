@@ -10,7 +10,7 @@ export default function Contact() {
             <div>JOIN THE CLUB & GET UPDATES FOR SPECIAL EVENTS</div>
             <div>
               <input type="text" placeholder="Name" className="input_text" />
-              <input type="text" placeholder="Email" className="input_text"  />
+              <input type="text" placeholder="Email" className="input_text" />
               <button className="_button">Subscribe</button>
             </div>
           </div>
@@ -61,7 +61,9 @@ export default function Contact() {
             <a href="mailto:" className="anc_">
               Mail To: 0000XABCD@gmail.com
             </a>
-            <a href="" className="_button">JOIN OUR TEAM</a>
+            <a href="" className="_button">
+              JOIN OUR TEAM
+            </a>
           </div>
         </div>
         <p className="cpr">Copyright &copy; Samidha Bafna.All right reserved</p>
