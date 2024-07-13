@@ -1,10 +1,24 @@
-import React, { useState } from 'react'
+// import React, { useState } from "react";
+import React from "react";
+import ambience1 from "./ambience1.avif";
+import ambience2 from "./ambience2.avif";
+import ambience3 from "./ambience3.avif";
+import ambience4 from "./ambience4.avif";
+import ambience5 from "./ambience5.avif";
+import ambience6 from "./ambience6.avif";
+import ambience7 from "./ambience7.avif";
+
+// import about from "./about.jpg";
 
 export default function About() {
- 
+  // const [play,setPlay]=useState(true);
+  //  let showIcon=(play)=>{
+  //   setPlay(!play)
+  // }
+  // const ambi=[ambience1,ambience2,ambience3,ambience4,ambience5,ambience6,ambience7]
   // let mystyle={
   //   color:"black",
-  //   backgroundColor:"white" 
+  //   backgroundColor:"white"
   // }
   // let mydarkstyle={
   //   color:"white",
@@ -16,11 +30,11 @@ export default function About() {
 
   // const [myStyle,setmyStyle]=useState({
   //   color:"black",
-  //   backgroundColor:"white" 
-  // }) 
+  //   backgroundColor:"white"
+  // })
 
   // const[mode,myMode]=useState(dark)
-  
+
   // const changeMode=()=>{
   //   if(mode===dark){
   //     setmyStyle(mydarkstyle);
@@ -33,35 +47,54 @@ export default function About() {
   // }
 
   return (
-    
-    <div >
-      <section id="section2"  >
-        
-            <h1 id="sec2_head">About Us</h1>
-            <div id="sec2_body">
-                <div id="inner_sec2_body" >
-                    <div>"A taste of home,</div>
-                    <div> served with a smile."</div>
-                    <div> "Where good company meets good food."</div>
-                    <div>"Escape the ordinary, </div>
-                    <div>find extraordinary flavors."</div>
-                    <div>"Flavors that dance on your tongue,</div>
-                    <div> memories linger in your heart."</div>
-                    <div>"An adventure for your taste buds,</div>
-                    <div> a feast for your senses."</div>
-                    <div>"Not just a meal,</div>
-                    <div> a culinary journey."</div>
-                    <div>"Good vibes and good eats,</div>
-                    <div> what more could you ask for?"</div>
-                    <div>"Where friends gather,</div>
-                    <div> laughter grows, and bellies get happy."</div>
-                    <div>"Come hungry, leave happy (and maybe a little stuffed)."</div>
-                </div>
-            </div>
-            {/* <div className="container my-5">
-             <button type="button" className="btn btn-primary " onClick={changeMode}>{mode}</button>
-            </div> */}
-        </section>
+    <div className="box1 " id="section2">
+    <div className="box2">
+      
+        <div className="about_content">
+          <h1 className="about_head">ABOUT</h1>
+            <div>"A taste of home, served with a smile."</div>
+            <div> "Where good company meets good food."</div>
+            <div>"Escape the ordinary, find extraordinary flavors."</div>
+            <div>"Flavors that dance on your tongue, memories linger in your heart."</div>
+            <div>"An adventure for your taste buds, a feast for your senses."</div>
+            <div>"Not just a meal, a culinary journey."</div>
+            <div>"Good vibes and good eats,</div>
+            <div> what more could you ask for?"</div>
+            <div>"Where friends gather, laughter grows, and bellies get happy."</div>
+            <div>"Come hungry, leave happy (and maybe a little stuffed)."</div>
+        </div>
+           <div className="ambience"> 
+            <div className="images">
+            <img  src={ambience5} alt="" style={
+              {
+                height: "710px",
+                width: "650px",
+
+              }
+            } />
+            {/* play button  */}
+            <i class="fa-solid fa-play fa-2xl"  visibility="hidden" style={{
+               color: "white",
+               position: "absolute",
+               top: "85%",
+               left: "70%",
+               zIndex:"100",
+               transform: "translate(-50%, -50%)"
+            }}></i>
+            {/* pause button  */}
+            {/* <i class="fa-solid fa-pause fa-2xl" style={{
+              color: "white",
+              position: "absolute",
+              top: "85%",
+              left: "70%",
+              zIndex:"100",
+            }}>
+              
+            </i> */}
+           </div>
+          
+        </div> 
     </div>
-  )
+</div>
+  );
 }
