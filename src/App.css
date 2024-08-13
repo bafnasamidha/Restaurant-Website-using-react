@@ -6,46 +6,30 @@
 /* This is for git  */
 /* learn git  */
 
+/* Front.js */
 #section1 {
   width: 100vw;
-  height: 700px;
+  height: 720px;
   position: relative;
 }
 
-.scroll_image {
+.main_image {
   width: 100vw;
-  height: 700px;
-
+  height: 720px;
 }
 
-.title{
+.title {
   position: absolute;
-  top: 40%;
+  top: 70%;
   left: 40%;
   font-family: "Zeyada", cursive;
   font-size: 100px;
   color: white;
   font-weight: 1000;
 }
+/*  */
 
-.leftarrow{
-  position: absolute;
-  top: 40%;
-  left: 0;
-  font-size: 30px;
-  color: white;
-  background-color: #bdb9b95e;
-}
-
-.rightarrow{
-  position: absolute;
-  top: 40%;
-  right: 0;
-  font-size: 30px;
-  color: white;
-  background-color: #bdb9b95e;
-}
-
+/* Navbar.js */
 .navigate {
   height: 60px;
   width: 100vw;
@@ -96,6 +80,7 @@
 .button:hover {
   transform: scale(1.1);
 }
+/*   */
 
 /* #section2 {
   display: flex;
@@ -236,7 +221,6 @@
   opacity: 1;
 }  */
 
-
 /* .reserve_block {
   height: 600px;
   width: 400px;
@@ -293,8 +277,9 @@ input {
   transform: scale(1.05);
 } */
 
+/* About.js */
 .box1 {
-  height: 720px;
+  height: 710px;
   width: 1000vw;
   background-color: #000000eb;
 }
@@ -302,6 +287,14 @@ input {
 .box2 {
   display: flex;
   gap: 30px;
+}
+
+.about_head {
+  margin: 20px;
+  padding: 12px;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
 }
 
 .about_content {
@@ -323,33 +316,28 @@ input {
   gap: 3px;
 }
 
-.about_head {
-  margin: 20px;
-  padding: 12px;
-  font-family: "Amatic SC", sans-serif;
-  font-weight: 900;
-  font-size: 60px;
-}
-
-.images{
-  height: 720px;
+.images {
+  height: 710px;
   width: 500px;
   margin-right: 120px;
   /* margin-bottom: 10px; */
-  position:relative;
+  position: relative;
   z-index: 0px;
 }
+/*  */
 
+/* Block.js */
 .block {
-  height: 320px;
+  height: 300px;
   width: 100vw;
 }
+/*   */
 
-
+/* Contact.js */
 #section4 {
   width: 100vw;
   height: 330px;
-  background-color: #000000eb;
+  background-color: #000000f3;
 }
 
 #sec4_head {
@@ -358,6 +346,32 @@ input {
   color: white;
   font-family: "Amatic SC", sans-serif;
   font-weight: 900;
+}
+
+#sec4_body {
+  padding: 10px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  display: flex;
+  align-items: start;
+  gap: 200px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 20px;
+}
+
+.input_text {
+  height: 30px;
+  width: 180px;
+  margin: 10px;
+  border-style: solid;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 ._button {
@@ -381,33 +395,6 @@ input {
   transform: scale(1.07);
 }
 
-.input_text {
-  height: 30px;
-  width: 180px;
-  border-style: solid;
-  font-size: 15px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.col {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  gap: 20px;
-
-}
-
-#sec4_body {
-  padding: 10px;
-  color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 15px;
-  display: flex;
-  align-items: start;
-  text-decoration: none;
-  gap: 180px;
-}
-
 .anc_ {
   color: white;
   text-decoration: none;
@@ -420,5 +407,7 @@ input {
 .cpr {
   color: white;
   font-size: small;
-  /* font-weight: bolder; */
+  font-weight: lighter;
+  text-align: center;
 }
+/*  */

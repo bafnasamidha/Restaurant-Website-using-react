@@ -24,14 +24,11 @@ export default function Contact() {
               Saturday-Sunday: 10:00 AM - 2:00 PM
             </div>
             <div>
-              {" "}
-              <a href="https://www.google.com/maps" className="anc_">
-                <div>
-                  Location:
-                  <br />
-                  0000,ABCD XXX
-                </div>
-              </a>
+              <div>
+                Location:
+                <br />
+                0000,ABCD XXX
+              </div>
             </div>
           </div>
           <div className="col">
@@ -61,7 +58,7 @@ export default function Contact() {
             <a href="mailto:" className="anc_">
               Mail To: 0000XABCD@gmail.com
             </a>
-            <a href="" className="_button">
+            <a href="/" className="_button">
               JOIN OUR TEAM
             </a>
           </div>
