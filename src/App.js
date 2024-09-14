@@ -3,8 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Front from "./components/Front";
 import About from "./components/About";
-import Contact from "./components/Contact";
 import Block from "./components/Block";
+import Contact from "./components/Contact";
 // import Reservation from "./components/Reservation";
 
 // import { BrowserRouter as Router,
